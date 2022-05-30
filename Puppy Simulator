@@ -1,0 +1,272 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Label = Instance.new("TextLabel")
+local WalkSpeed = Instance.new("TextButton")
+local Jumping = Instance.new("TextButton")
+local Field1 = Instance.new("TextButton")
+local Field2 = Instance.new("TextButton")
+local Field3 = Instance.new("TextButton")
+local Field5 = Instance.new("TextButton")
+local Field4 = Instance.new("TextButton")
+local Field6 = Instance.new("TextButton")
+local NooBShop = Instance.new("TextButton")
+local ProShop = Instance.new("TextButton")
+local GoldShop = Instance.new("TextButton")
+local BlueShop = Instance.new("TextButton")
+local BoneConverter = Instance.new("TextButton")
+local AlchemistShop = Instance.new("TextButton")
+local CollectBone = Instance.new("TextButton")
+
+ScreenGui.Parent = game.CoreGui
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+Frame.Position = UDim2.new(0.553745866, 0, 0.268085092, 0)
+Frame.Size = UDim2.new(0, 437, 0, 516)
+Frame.Active = true
+Frame.Draggable = true
+
+Label.Name = "Label"
+Label.Parent = Frame
+Label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label.BackgroundTransparency = 0.900
+Label.Size = UDim2.new(0, 437, 0, 50)
+Label.Font = Enum.Font.SourceSans
+Label.Text = "cheats¦Puppy Simulator"
+Label.TextColor3 = Color3.fromRGB(55, 255, 0)
+Label.TextScaled = true
+Label.TextSize = 14.000
+Label.TextStrokeColor3 = Color3.fromRGB(25, 255, 0)
+Label.TextWrapped = true
+
+WalkSpeed.Name = "WalkSpeed"
+WalkSpeed.Parent = Frame
+WalkSpeed.BackgroundColor3 = Color3.fromRGB(243, 255, 15)
+WalkSpeed.Position = UDim2.new(0, 0, 0.0968992263, 0)
+WalkSpeed.Size = UDim2.new(0, 112, 0, 50)
+WalkSpeed.Font = Enum.Font.SourceSans
+WalkSpeed.Text = "WalkSpeed"
+WalkSpeed.TextColor3 = Color3.fromRGB(0, 0, 0)
+WalkSpeed.TextScaled = true
+WalkSpeed.TextSize = 14.000
+WalkSpeed.TextWrapped = true
+WalkSpeed.MouseButton1Down:Connect(function()
+	game:GetService("Workspace").Ivantaran5.Humanoid.WalkSpeed = 50
+
+end)
+
+Jumping.Name = "Jumping"
+Jumping.Parent = Frame
+Jumping.BackgroundColor3 = Color3.fromRGB(243, 255, 15)
+Jumping.Position = UDim2.new(-0.00228828192, 0, 0.238372087, 0)
+Jumping.Size = UDim2.new(0, 112, 0, 50)
+Jumping.Font = Enum.Font.SourceSans
+Jumping.Text = "Jumping"
+Jumping.TextColor3 = Color3.fromRGB(0, 0, 0)
+Jumping.TextScaled = true
+Jumping.TextSize = 14.000
+Jumping.TextWrapped = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+	game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")		
+end)
+
+Field1.Name = "Field1"
+Field1.Parent = Frame
+Field1.BackgroundColor3 = Color3.fromRGB(243, 255, 15)
+Field1.Position = UDim2.new(4.74974513e-08, 0, 0.368217051, 0)
+Field1.Size = UDim2.new(0, 112, 0, 50)
+Field1.Font = Enum.Font.SourceSans
+Field1.Text = "Field1"
+Field1.TextColor3 = Color3.fromRGB(0, 0, 0)
+Field1.TextScaled = true
+Field1.TextSize = 14.000
+Field1.TextWrapped = true
+Field1.MouseButton1Down:Connect(function()
+	game:GetService("Workspace").Ivantaran5.HumanoidRootPart.CFrame = CFrame.new(17.309351, 5.39358616, 270.736603, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+Field2.Name = "Field2"
+Field2.Parent = Frame
+Field2.BackgroundColor3 = Color3.fromRGB(243, 255, 15)
+Field2.Position = UDim2.new(-0.00228828192, 0, 0.505813956, 0)
+Field2.Size = UDim2.new(0, 112, 0, 50)
+Field2.Font = Enum.Font.SourceSans
+Field2.Text = "Field2"
+Field2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Field2.TextScaled = true
+Field2.TextSize = 14.000
+Field2.TextWrapped = true
+Field2.MouseButton1Down:Connect(function()
+	game:GetService("Workspace").Ivantaran5.HumanoidRootPart.CFrame = CFrame.new(-326.029633, -18.1276493, 140.656891, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+Field3.Name = "Field3"
+Field3.Parent = Frame
+Field3.BackgroundColor3 = Color3.fromRGB(243, 255, 15)
+Field3.Position = UDim2.new(4.74974513e-08, 0, 0.643410861, 0)
+Field3.Size = UDim2.new(0, 112, 0, 50)
+Field3.Font = Enum.Font.SourceSans
+Field3.Text = "Field3"
+Field3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Field3.TextScaled = true
+Field3.TextSize = 14.000
+Field3.TextWrapped = true
+Field3.MouseButton1Down:Connect(function()
+	game:GetService("Workspace").Ivantaran5.HumanoidRootPart.CFrame = CFrame.new(-142.329758, 21.6197624, 297.422852, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+Field4.Name = "Field4"
+Field4.Parent = Frame
+Field4.BackgroundColor3 = Color3.fromRGB(243, 255, 15)
+Field4.Position = UDim2.new(0.372997761, 0, 0.0968992263, 0)
+Field4.Size = UDim2.new(0, 112, 0, 50)
+Field4.Font = Enum.Font.SourceSans
+Field4.Text = "Field4"
+Field4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Field4.TextScaled = true
+Field4.TextSize = 14.000
+Field4.TextWrapped = true
+Field4.MouseButton1Down:Connect(function()
+	game:GetService("Workspace").Ivantaran5.HumanoidRootPart.CFrame = CFrame.new(-176.995483, 11.7358074, -74.6610718, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+Field5.Name = "Field5"
+Field5.Parent = Frame
+Field5.BackgroundColor3 = Color3.fromRGB(243, 255, 15)
+Field5.Position = UDim2.new(0.372997761, 0, 0.238372087, 0)
+Field5.Size = UDim2.new(0, 112, 0, 50)
+Field5.Font = Enum.Font.SourceSans
+Field5.Text = "Field5"
+Field5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Field5.TextScaled = true
+Field5.TextSize = 14.000
+Field5.TextWrapped = true
+Field5.MouseButton1Down:Connect(function()
+	game:GetService("Workspace").Ivantaran5.HumanoidRootPart.CFrame = CFrame.new(38.392765, -44.5894165, -75.5749207, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+Field6.Name = "Field6"
+Field6.Parent = Frame
+Field6.BackgroundColor3 = Color3.fromRGB(243, 255, 15)
+Field6.Position = UDim2.new(0.372997761, 0, 0.368217051, 0)
+Field6.Size = UDim2.new(0, 112, 0, 50)
+Field6.Font = Enum.Font.SourceSans
+Field6.Text = "Field6"
+Field6.TextColor3 = Color3.fromRGB(0, 0, 0)
+Field6.TextScaled = true
+Field6.TextSize = 14.000
+Field6.TextWrapped = true
+Field6.MouseButton1Down:Connect(function()
+	game:GetService("Workspace").Ivantaran5.HumanoidRootPart.CFrame = CFrame.new(118.474083, 21.7902298, -249.679199, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+BoneConverter.Name = "BoneConverter"
+BoneConverter.Parent = Frame
+BoneConverter.BackgroundColor3 = Color3.fromRGB(243, 255, 15)
+BoneConverter.Position = UDim2.new(0.372997761, 0, 0.505813956, 0)
+BoneConverter.Size = UDim2.new(0, 112, 0, 50)
+BoneConverter.Font = Enum.Font.SourceSans
+BoneConverter.Text = "BoneConverter"
+BoneConverter.TextColor3 = Color3.fromRGB(0, 0, 0)
+BoneConverter.TextScaled = true
+BoneConverter.TextSize = 14.000
+BoneConverter.TextWrapped = true
+BoneConverter.MouseButton1Down:Connect(function()
+	game:GetService("Workspace").Ivantaran5.HumanoidRootPart.CFrame = CFrame.new(-60.5084114, -4.38048935, 99.2822189, -4.37498093e-05, -0.275716096, -0.9612391, 1, -4.37498093e-05, -3.30209732e-05, -3.30209732e-05, -0.9612391, 0.275716126)
+end)
+
+
+NooBShop.Name = "NooB Shop"
+NooBShop.Parent = Frame
+NooBShop.BackgroundColor3 = Color3.fromRGB(243, 255, 15)
+NooBShop.Position = UDim2.new(0.741418779, 0, 0.0968992263, 0)
+NooBShop.Size = UDim2.new(0, 112, 0, 50)
+NooBShop.Font = Enum.Font.SourceSans
+NooBShop.Text = "NooB Shop"
+NooBShop.TextColor3 = Color3.fromRGB(0, 0, 0)
+NooBShop.TextScaled = true
+NooBShop.TextSize = 14.000
+NooBShop.TextWrapped = true
+NooBShop.MouseButton1Down:Connect(function()
+	game:GetService("Workspace").Ivantaran5.HumanoidRootPart.CFrame = CFrame.new(21.6213627, -1.68700266, 100.170822, 0.766061246, 0, 0.642767608, 0, 1, 0, -0.642767608, 0, 0.766061246)
+end)
+
+ProShop.Name = "Pro Shop"
+ProShop.Parent = Frame
+ProShop.BackgroundColor3 = Color3.fromRGB(243, 255, 15)
+ProShop.Position = UDim2.new(0.74370712, 0, 0.238372073, 0)
+ProShop.Size = UDim2.new(0, 112, 0, 50)
+ProShop.Font = Enum.Font.SourceSans
+ProShop.Text = "Pro Shop"
+ProShop.TextColor3 = Color3.fromRGB(0, 0, 0)
+ProShop.TextScaled = true
+ProShop.TextSize = 14.000
+ProShop.TextWrapped = true
+ProShop.MouseButton1Down:Connect(function()
+	game:GetService("Workspace").Ivantaran5.HumanoidRootPart.CFrame = CFrame.new(-226.070572, 39.8033142, 380.709381, -3.80277634e-05, 0.754747868, -0.656015038, 1, 3.80277634e-05, -1.42157078e-05, 1.42157078e-05, -0.656015038, -0.754747868)
+end)
+
+GoldShop.Name = "Gold Shop"
+GoldShop.Parent = Frame
+GoldShop.BackgroundColor3 = Color3.fromRGB(243, 255, 15)
+GoldShop.Position = UDim2.new(0.741418779, 0, 0.368217051, 0)
+GoldShop.Size = UDim2.new(0, 112, 0, 50)
+GoldShop.Font = Enum.Font.SourceSans
+GoldShop.Text = "Gold Shop"
+GoldShop.TextColor3 = Color3.fromRGB(0, 0, 0)
+GoldShop.TextScaled = true
+GoldShop.TextSize = 14.000
+GoldShop.TextWrapped = true
+GoldShop.MouseButton1Down:Connect(function()
+	game:GetService("Workspace").Ivantaran5.HumanoidRootPart.CFrame = CFrame.new(149.406906, -4.67209053, -110.228554, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+
+BlueShop.Name = "Blue Shop"
+BlueShop.Parent = Frame
+BlueShop.BackgroundColor3 = Color3.fromRGB(243, 255, 15)
+BlueShop.Position = UDim2.new(0.741418779, 0, 0.505813956, 0)
+BlueShop.Size = UDim2.new(0, 112, 0, 50)
+BlueShop.Font = Enum.Font.SourceSans
+BlueShop.Text = "Blue Shop"
+BlueShop.TextColor3 = Color3.fromRGB(0, 0, 0)
+BlueShop.TextScaled = true
+BlueShop.TextSize = 14.000
+BlueShop.TextWrapped = true
+BlueShop.MouseButton1Down:Connect(function()
+	game:GetService("Workspace").Ivantaran5.HumanoidRootPart.CFrame = CFrame.new(-336.869232, 53.5739441, -108.243362, 0.999847949, -0, -0.017436387, 0, 1, -0, 0.017436387, 0, 0.999847949)
+end)
+
+AlchemistShop.Name = "NooB Shop"
+AlchemistShop.Parent = Frame
+AlchemistShop.BackgroundColor3 = Color3.fromRGB(243, 255, 15)
+AlchemistShop.Position = UDim2.new(0.368421108, 0, 0.643410861, 0)
+AlchemistShop.Size = UDim2.new(0, 112, 0, 50)
+AlchemistShop.Font = Enum.Font.SourceSans
+AlchemistShop.Text = "Alchemist Shop"
+AlchemistShop.TextColor3 = Color3.fromRGB(0, 0, 0)
+AlchemistShop.TextScaled = true
+AlchemistShop.TextSize = 14.000
+AlchemistShop.TextWrapped = true
+AlchemistShop.MouseButton1Down:Connect(function()
+	game:GetService("Workspace").Ivantaran5.HumanoidRootPart.CFrame = CFrame.new(-296.332153, -1.4495126, 24.7618599, -0.642763734, 0, -0.766064942, 0, 1, 0, 0.766064942, 0, -0.642763734)
+end)
+
+CollectBone.Name = "Collect Bone"
+CollectBone.Parent = Frame
+CollectBone.BackgroundColor3 = Color3.fromRGB(243, 255, 15)
+CollectBone.Position = UDim2.new(0.741418779, 0, 0.643410861, 0)
+CollectBone.Size = UDim2.new(0, 112, 0, 50)
+CollectBone.Font = Enum.Font.SourceSans
+CollectBone.Text = "Collect Bone"
+CollectBone.TextColor3 = Color3.fromRGB(0, 0, 0)
+CollectBone.TextScaled = true
+CollectBone.TextSize = 14.000
+CollectBone.TextWrapped = true
+CollectBone.MouseButton1Down:Connect(function()
+	for i,v in pairs(game.Workspace.Tokens:GetDescendants()) do
+		if v.Name == 'Bone' then
+			v.CFrame = game:GetService("Workspace").Ivantaran5.HumanoidRootPart.CFrame
+		end
+	end
+end)
